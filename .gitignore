@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Generated icon exports and local working data
+generated-icons*/
+offline-*/
+offline-export*/
+offline-verify*/
+*.log
+
+# Local IDE/editor state
+.idea/
+.vscode/

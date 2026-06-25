@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcmod-offline-icon-exporter"
+version = "0.1.0"
+description = "Offline Minecraft mod asset scanner and mcmod.cn icon exporter."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Jac0b-Shi" }]
+dependencies = [
+  "numpy",
+  "Pillow",
+  "rich",
+  "typer",
+]
+
+[project.scripts]
+mcmod-icon-exporter = "mcmod_icon_exporter.tui:cli"
+mcmod-icon-exporter-cli = "mcmod_icon_exporter.render:cli"
+
+[tool.setuptools]
+packages = ["mcmod_icon_exporter"]
