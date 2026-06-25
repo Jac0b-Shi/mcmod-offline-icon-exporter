@@ -1,5 +1,7 @@
 # MCMod Offline Icon Exporter
 
+[中文文档](README_zh.md)
+
 Offline icon exporter for Minecraft mod assets.
 
 It scans `assets/<modid>/` from a mod source tree or a built JAR/ZIP and exports icons useful for MCMod documentation work, without entering the game and without using LetMeSeeSee.
